@@ -1,0 +1,23 @@
+<html ng-app="myApp">
+
+<head>
+
+<script type="text/javascript" src="js/vendor/angular.min.js"></script>
+<script type="text/javascript" src="js/controller/app.js"></script>
+</head>
+
+<body ng-controller="myController">
+	<table cellpadding="5" border="1" >
+		<tr>
+			<th>Name</th>
+			<th>Age</th>
+		</tr>
+		<tr ng-repeat="person in persons">
+			<td>{{person.name}}</td>
+			<td>{{person.age}}</td>
+		</tr>
+	</table>
+
+</body>
+
+</html>
