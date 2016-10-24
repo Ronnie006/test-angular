@@ -7,3 +7,6 @@ irun sa cmd ung nasa baba palitan lang ung <path> gets mo na siguro un.
 
 palitan ung version ng jdk depende sa kung anong version ung nakalagay sa directory.
 <path>/jdk1.8.0_73/bin/java -Xmx512m -jar <path>/test-angular-1.0.0.jar
+
+access
+http://localhost:8080/index.html
